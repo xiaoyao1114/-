@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/flybird.css"/>
+</head>
+<body onselectstart='return false' >
+<section id="ban">
+    <!--<section id="user">-->
+        <!--<a href="views/login.html" id="login">登陆</a>-->
+        <!--<a href="views/resigter.html" id="register">注册</a>-->
+    <!--</section>-->
+    <section id="start">开始</section>
+    <section id="rules">
+        <span>游戏规则：</span> <br/>
+        <span>
+            进入游戏，根据躲避管子的数量随机获取优惠券；<BR>
+            游戏中产生的优惠券可在购买商品时直接抵用；
+        </span> <br/>
+        <span>活动时间：2015-07-20——2015-08-20</span>
+    </section>
+</section>
+<section id="mengban">
+    <section id="back">×</section>
+</section>
+<section id="play">
+    <h1>飞翔的小鸟</h1> <br/> <br/>
+    <p id="begingame">开始游戏</p>
+    <p id="resite">退出游戏</p>
+    <span>方法：按空格来控制小鸟的运动</span>
+</section>
+<canvas id="canvas" width="500" height="643" ></canvas>
+<canvas id="canvas2" width="500" height="643" ></canvas>
+<canvas id="canvas3" width="500" height="560" ></canvas>
+<!--音频文件-->
+<!--<audio src="./images/bgSound.mp3" -->
+    <!--autoplay="autoplay"   controls="controls" id="bgsound"></audio>-->
+<!--小于三分时被撞死-->
+<section id="lowscore" class="tankuang">
+    <br/><br/><br/>
+    <span> </span> <br/><br/>
+    <h1>您的分数太低了!</h1>
+    <p id="get">请重新游戏</p>
+</section>
+<!--券-->
+<section id="quan" class="tankuang">
+    <span> </span> <br/><br/>
+    <section id="money"> </section><br/>
+    <span></span><br/>
+    <p id="goon">继续游戏</p>
+    <p id="jiesu">结束游戏</p>
+</section>
+<!--GAME OVER-->
+<section id="over" class="tankuang">
+    <br/><br/><br/>
+    <span> </span> <br/><br/><h1></h1>
+    <p id="stopgame">结束游戏</p>
+</section>
+<section id="zanting" >|&nbsp|</section>
+<!--暂停游戏时-->
+<section id="pause" class="tankuang">
+     <br/><br/>
+    <span></span><br/>
+    <p id="pause_goon">继续游戏</p>
+    <p id="pause_jiesu">结束游戏</p>
+</section>
+<script src="js/flybird.js"></script>
+</body>
+</html>
