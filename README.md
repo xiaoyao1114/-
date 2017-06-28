@@ -1,7 +1,7 @@
 # flying-bird
 flying-bird
 
-[在线查看](https://github.com/xiaoyao1114/flying-bird)
+
 
 
 
